@@ -29,7 +29,7 @@ My presentation style is heavy on visuals and light on bullets,
 with my narration giving the key points verbally, so viewers of the PDF
 miss a bit of what the live audience heard.
 
-[![Presenting over Zoom, with the slides and my presenter video in the corner](DressRehearsalScreenshot.png)](https://us06web.zoom.us/rec/play/2FbB6swdhxH3VSGEG7CilBQQKvahLKDtrtUKyrdUOKB64rOUsjA62GW1ls2L5eFtbshq_xQGXb-2MPKP.-hKgQU7GOPoq-lh1)
+[![Presenting over Zoom, with the slides and my presenter video in the corner](DressRehearsalScreenshot.png)](https://us06web.zoom.us/rec/share/1zvoQ55HAjh64t1HXOtMuHbLQsf9KlSkImf9Kdp5P-IfeTKznRcYh0pjgsGdbWsc.UuqJBDgil96nxSYb)
 
 ## What the talk covers
 
