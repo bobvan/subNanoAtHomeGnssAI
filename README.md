@@ -23,7 +23,7 @@ You can
 [view the presentation PDF here on GitHub](https://github.com/bobvan/subNanoAtHomeGnssAI/blob/main/subNanoAtHomeGnssAI.pdf),
 [download it for offline viewing](https://raw.githubusercontent.com/bobvan/subNanoAtHomeGnssAI/main/subNanoAtHomeGnssAI.pdf),
 or
-[watch a video recording of the presentation](https://us06web.zoom.us/rec/play/2FbB6swdhxH3VSGEG7CilBQQKvahLKDtrtUKyrdUOKB64rOUsjA62GW1ls2L5eFtbshq_xQGXb-2MPKP.-hKgQU7GOPoq-lh1).
+[watch a video recording of my "dress rehearsal" for the presentation](https://us06web.zoom.us/rec/share/1zvoQ55HAjh64t1HXOtMuHbLQsf9KlSkImf9Kdp5P-IfeTKznRcYh0pjgsGdbWsc.UuqJBDgil96nxSYb).
 
 My presentation style is heavy on visuals and light on bullets,
 with my narration giving the key points verbally, so viewers of the PDF
