@@ -20,13 +20,16 @@ and the resulting
 for building precision GNSS clocks.
 
 You can
-[view the presentation PDF here on GitHub](https://github.com/bobvan/subNanoAtHomeGnssAI/blob/main/subNanoAtHomeGnssAI.pdf)
+[view the presentation PDF here on GitHub](https://github.com/bobvan/subNanoAtHomeGnssAI/blob/main/subNanoAtHomeGnssAI.pdf),
+[download it for offline viewing](https://raw.githubusercontent.com/bobvan/subNanoAtHomeGnssAI/main/subNanoAtHomeGnssAI.pdf),
 or
-[download it for offline viewing](https://raw.githubusercontent.com/bobvan/subNanoAtHomeGnssAI/main/subNanoAtHomeGnssAI.pdf).
+[watch a video recording of the presentation](https://us06web.zoom.us/rec/play/2FbB6swdhxH3VSGEG7CilBQQKvahLKDtrtUKyrdUOKB64rOUsjA62GW1ls2L5eFtbshq_xQGXb-2MPKP.-hKgQU7GOPoq-lh1).
 
 My presentation style is heavy on visuals and light on bullets,
 with my narration giving the key points verbally, so viewers of the PDF
 miss a bit of what the live audience heard.
+
+[![Presenting over Zoom, with the slides and my presenter video in the corner](DressRehearsalScreenshot.png)](https://us06web.zoom.us/rec/play/2FbB6swdhxH3VSGEG7CilBQQKvahLKDtrtUKyrdUOKB64rOUsjA62GW1ls2L5eFtbshq_xQGXb-2MPKP.-hKgQU7GOPoq-lh1)
 
 ## What the talk covers
 
