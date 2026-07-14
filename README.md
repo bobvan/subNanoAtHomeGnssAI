@@ -1,5 +1,9 @@
 # subNanoAtHomeGnssAI
 
+Presentation describing my efforts to build clocks with sub-nanosecond accuracy using GNSS and AI in a home time lab.
+
+## Overview
+
 I gave a presentation on July 9, 2026 at the
 [STAC Summit](https://stacresearch.com/events/mini-summit-npl-london/) at the
 [National Physical Laboratory (NPL)](https://www.npl.co.uk/)
@@ -21,10 +25,10 @@ or
 [download it for offline viewing](https://raw.githubusercontent.com/bobvan/subNanoAtHomeGnssAI/main/subNanoAtHomeGnssAI.pdf).
 
 My presentation style is heavy on visuals and light on bullets,
-with my narration giving the key points verbally.
-The GitHub audience necessarily misses out compared to the live audience.
+with my narration giving the key points verbally, so viewers of the PDF
+miss a bit of what the live audience heard.
 
-The presentation describes my efforts to build clocks with sub-nanosecond accuracy using GNSS and AI in a home time lab.
+## What the talk covers
 
 I introduce my frame of reference as retirement from low-latency trading,
 where precise network timestamps are required in datacenters — which left me
@@ -54,12 +58,11 @@ since they are a critical part of getting precise answers.
 Without time to list all small effects that must be considered to get
 accurate time, the presentation highlights three:
 
-1. Intersystem bias. Clock differences across GNSS constellations.
-2. Datum offsets. The land itself moves over time (plate motion), so
-positions must be tied to a dated reference frame.
-3. Solid-Earth Tides. You might not believe it, but the solid earth
-below you rises and falls daily, introducing GNSS errors if
-not accounted for.
+- **Intersystem bias** — Clock differences across GNSS constellations.
+- **Datum offsets** — The land itself moves over time (plate motion), so positions must be tied to a dated reference frame.
+- **Solid-Earth tides** — Believe it or not, the solid earth beneath you rises and falls about daily, adding GNSS errors if not accounted for.
+
+## Implementation and results
 
 I show a block diagram of PePPAR-Fix software that uses raw GNSS
 carrier phase observations to precisely drive a disciplined oscillator.
@@ -69,6 +72,8 @@ of one of the clock prototypes I built to run PePPAR-Fix.
 Deviation plots show improvement over a simple GNSS PPS receiver and
 the future work to be done in pursuit of better stability.
 Progress toward two-clock agreement goals is given.
+
+## Role of AI
 
 This work covers about four months of fairly intense research in 2026.
 I went from understanding only the basics of time via GNSS to a much
@@ -81,7 +86,19 @@ of others.
 I give some thoughts on how I worked profitably with AI by giving my
 agents great power, but limiting their blast radius if something were to go
 wrong.
-Future plans are covered, along with acknowledgments to
-[Ole Petter Rønningen](https://no.linkedin.com/in/olepetter)
-and
-[John Ackermann](https://www.febo.com/jra.html).
+
+## If you want to build your own
+
+One goal of this work was to leave a trail of crumbs for anyone who wants
+to follow. The code is open source at
+[PePPAR-Fix](https://github.com/bobvan/PePPAR-Fix/), and the slides include
+a complete parts list. The measurement tools behind my earlier
+[Last Nanoseconds to UTC](https://github.com/bobvan/lastNs2utc) work —
+including the dual u-blox F9T experiments — are in
+[f9tResearch](https://github.com/bobvan/f9tResearch/).
+
+This all stands on the shoulders of others, especially
+[Ole Petter Rønningen](https://no.linkedin.com/in/olepetter), who built the
+first PPP GPSDO, and
+[John Ackermann, N8UR](https://www.febo.com/jra.html), for an inexpensive
+time-interval counter and divider.
