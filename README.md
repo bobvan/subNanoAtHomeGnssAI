@@ -98,7 +98,7 @@ including the dual u-blox F9T experiments — are in
 [f9tResearch](https://github.com/bobvan/f9tResearch/).
 
 This all stands on the shoulders of others, especially
-[Ole Petter Rønningen](https://no.linkedin.com/in/olepetter), who built the
-first PPP GPSDO, and
+[Ole Petter Rønningen](https://no.linkedin.com/in/olepetter), who built
+[the first PPP GPSDO](https://www.efos3.com/GPSDO/GPSDO.html), and
 [John Ackermann, N8UR](https://www.febo.com/jra.html), for an inexpensive
 time-interval counter and divider.
