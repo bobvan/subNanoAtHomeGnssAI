@@ -4,10 +4,13 @@ Presentation describing my efforts to build clocks with sub-nanosecond accuracy 
 
 ## Overview
 
-I gave a presentation on July 9, 2026 at the
+I first gave this presentation on July 9, 2026 at the
 [STAC Summit](https://stacresearch.com/events/mini-summit-npl-london/) at the
 [National Physical Laboratory (NPL)](https://www.npl.co.uk/)
-in Teddington, London.
+in Teddington, London, and gave an updated version on August 12, 2026.
+
+**The PDF here is the August 12 version (v4).** The July version is preserved in
+this repository's git history if you want it.
 
 This talk is a sequel to my earlier presentation,
 [Last Nanoseconds to UTC](https://github.com/bobvan/lastNs2utc)
@@ -28,6 +31,34 @@ or
 My presentation style is heavy on visuals and light on bullets,
 with my narration giving the key points verbally, so viewers of the PDF
 miss a bit of what the live audience heard.
+
+Note that the dress rehearsal recording linked above is of the **July**
+version, so it does not include the slides added in v4.
+
+## What changed in v4 (August 12, 2026)
+
+Four slides longer, and nearly all of the new material came out of writing
+[Topics In Timekeeping](https://ThinkOutsideTheBob.Com/timekeeping/) — a
+collection of pages covering the ground this talk has to move through quickly.
+
+- **Three pictures of the same satellite**, in order of how wrong they are:
+  master clocks in orbit, then the ground steering them, then the truth — the
+  satellites free-run, the ground computes corrections, and *your receiver* does
+  the arithmetic.
+- **What a correction stream buys**, as two numbers instead of a paragraph:
+  roughly 25x less error and 100x more frequent updates than the broadcast
+  navigation message.
+- **A very expensive thermometer.** Eight minutes of quantization error from a
+  u-blox F9T as the lab warmed and cooled; unwrapped, the oscillator's phase
+  walks out to 120 ns and back.
+- **A trading campus that agrees with itself far better than it agrees with
+  UTC** — 200 ps between any pair of ports across a half-mile campus, against
+  +/-15 ns RMS to UTC.
+
+Plus one sharpened result: the clock reaches sub-nanosecond stability while
+still achieving only about 3 ns of agreement between clocks. Those are two
+different ways of being wrong, and the gap between them is the work that
+remains.
 
 [![Presenting over Zoom, with the slides and my presenter video in the corner](DressRehearsalScreenshot.png)](https://us06web.zoom.us/rec/share/1zvoQ55HAjh64t1HXOtMuHbLQsf9KlSkImf9Kdp5P-IfeTKznRcYh0pjgsGdbWsc.UuqJBDgil96nxSYb)
 
