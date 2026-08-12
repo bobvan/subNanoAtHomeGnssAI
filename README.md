@@ -7,7 +7,9 @@ Presentation describing my efforts to build clocks with sub-nanosecond accuracy 
 I first gave this presentation on July 9, 2026 at the
 [STAC Summit](https://stacresearch.com/events/mini-summit-npl-london/) at the
 [National Physical Laboratory (NPL)](https://www.npl.co.uk/)
-in Teddington, London, and gave an updated version on August 12, 2026.
+in Teddington, London, and gave an updated version on August 12, 2026 on the
+[Time Appliances Project](https://www.opencompute.org/projects/time-appliances-project-tap)
+call.
 
 **The PDF here is the August 12 version (v4).** The July version is preserved in
 this repository's git history if you want it.
@@ -26,14 +28,16 @@ You can
 [view the presentation PDF here on GitHub](https://github.com/bobvan/subNanoAtHomeGnssAI/blob/main/subNanoAtHomeGnssAI.pdf),
 [download it for offline viewing](https://raw.githubusercontent.com/bobvan/subNanoAtHomeGnssAI/main/subNanoAtHomeGnssAI.pdf),
 or
-[watch a video recording of my "dress rehearsal" for the presentation](https://us06web.zoom.us/rec/share/1zvoQ55HAjh64t1HXOtMuHbLQsf9KlSkImf9Kdp5P-IfeTKznRcYh0pjgsGdbWsc.UuqJBDgil96nxSYb).
+[watch the recording of the August 12 talk](https://www.youtube.com/watch?v=1DAI40a6PBg),
+published by the Time Appliances Project.
+
+There is also a
+[recording of the "dress rehearsal"](https://us06web.zoom.us/rec/share/1zvoQ55HAjh64t1HXOtMuHbLQsf9KlSkImf9Kdp5P-IfeTKznRcYh0pjgsGdbWsc.UuqJBDgil96nxSYb)
+for the July version, kept for the record.
 
 My presentation style is heavy on visuals and light on bullets,
 with my narration giving the key points verbally, so viewers of the PDF
 miss a bit of what the live audience heard.
-
-Note that the dress rehearsal recording linked above is of the **July**
-version, so it does not include the slides added in v4.
 
 ## What changed in v4 (August 12, 2026)
 
@@ -60,7 +64,7 @@ still achieving only about 3 ns of agreement between clocks. Those are two
 different ways of being wrong, and the gap between them is the work that
 remains.
 
-[![Presenting over Zoom, with the slides and my presenter video in the corner](DressRehearsalScreenshot.png)](https://us06web.zoom.us/rec/share/1zvoQ55HAjh64t1HXOtMuHbLQsf9KlSkImf9Kdp5P-IfeTKznRcYh0pjgsGdbWsc.UuqJBDgil96nxSYb)
+[![Presenting over Zoom, with the slides and my presenter video in the corner](DressRehearsalScreenshot.png)](https://www.youtube.com/watch?v=1DAI40a6PBg)
 
 ## What the talk covers
 
